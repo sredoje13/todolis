@@ -1,0 +1,131 @@
+.formlist{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  
+    
+}
+.span{color:rgb(14, 108, 209);
+    border-bottom: 2px solid rgb(14, 108, 209);
+    border-bottom-style:ridge;
+    }
+    .span:hover{color:blue}
+.todo{
+    display: flex;
+    gap: 300px;
+    margin-top:10%
+}
+.button{ margin-bottom: 10px;
+    font-size: x-large;
+color:rgb(17, 99, 192);
+border:3px solid rgb(17, 99, 192);
+border-radius: 5px;
+}
+.button:hover{
+    background-color:rgb(17, 99, 192); ;
+    color:white
+}
+.textarea{
+    border-radius: 30px;
+    padding: 10px;
+    border:10px solid rgb(17, 99, 192);
+height: 200px;
+margin-bottom: 20px;
+font-size: large;
+overflow-y:hidden
+}
+.date{
+font-size: large;
+color:rgb(17, 99, 192)
+}
+.header{
+    margin-top:150px;
+    font-size: xxx-large;
+    font-family: 'Rubik Gemstones', cursive;
+    color: rgb(224, 235, 238);
+}
+.footer{font-size: xxx-large;
+    font-family: 'Rubik Gemstones', cursive;
+    color: rgb(224, 235, 238);
+    margin:100px;
+}
+.footer2{font-size: xxx-large;
+    font-family: 'Rubik Gemstones', cursive;
+    color: rgb(5, 49, 61);
+    margin-top:150px;
+}
+.footer3{font-size: xx-large;
+    font-family: 'Rubik Gemstones', cursive;
+    color: rgb(224, 235, 238);
+    
+}
+.footer:hover{
+    color: rgb(5, 49, 61);
+}
+.errordate{
+    font-size: large;
+    color:rgb(228, 24, 24)
+}
+.error{
+    border-radius: 30px;
+    padding: 10px;
+    border:10px solid rgb(230, 114, 114);
+    color:red;
+height: 200px;
+margin-bottom: 20px;
+font-size: large;
+overflow-y:hidden
+}
+.p{  font-family: 'Rubik Gemstones', cursive;
+    color: rgb(5, 49, 61);
+    font-size: x-large;
+}
+.divicc{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   
+   
+}
+.divicc2{display:none}
+.arrow{margin-top: -20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.arrows{
+font-size: xxx-large;
+transform: rotate(90deg);
+margin-top: 20px;
+}
+.arrow2{
+    font-size: xxx-large;
+     margin-top: 20px;
+}
+.addinputt{
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+    
+}
+.selectitem{
+    color:rgb(12, 81, 137);
+    background-color: rgb(255, 255, 255);
+    font-size: xx-large;
+    padding: 20px;
+    width:350px
+}
+
+.overflow{
+    max-height:500px;
+    overflow-y: scroll;
+    background-color: antiquewhite;
+}
+@media only screen and(max-width:835px){
+    
+}

@@ -1,0 +1,49 @@
+.input{ 
+    margin:3rem auto;
+}
+.header{
+    margin-top:150px;
+    font-size: xxx-large;
+    font-family: 'Rubik Gemstones', cursive;
+    color: rgb(224, 235, 238);
+}
+.header:hover{
+   
+    color:aquamarine
+}
+.llink{
+    color:aquamarine;
+   border-bottom: 4px solid aquamarine;
+border-width: auto;
+
+}
+.llink:hover,:active{
+    color:black;
+   
+  
+}
+
+@media only screen and (max-width:988px) {
+    .header{
+        margin-top:10%;
+        font-size: xxx-large;
+        font-family: 'Rubik Gemstones', cursive;
+        color: rgb(224, 235, 238);
+    }
+}
+@media only screen and (max-width:540px) {
+    .header{
+      
+        font-size:xx-large;
+       
+      
+    }
+}
+@media only screen and (max-width:381px) {
+    .header{
+      
+        font-size:x-large;
+       
+      
+    }
+}

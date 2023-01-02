@@ -1,0 +1,148 @@
+.div1el{
+    
+   
+    width:650px;
+    background-color: rgb(237, 251, 251);
+    color: rgb(5, 46, 88);
+    border:4px solid rgb(5, 46, 88);
+    border-bottom: 1px solid rgb(20, 108, 197); 
+    border-top: 1px solid rgb(20, 108, 197); 
+    display: grid;
+    gap: 50px;
+    padding: 20px;
+  
+ 
+}
+.div2el{
+    
+   
+    width:350px;
+    background-color: rgb(237, 251, 251);
+    color: rgb(5, 46, 88);
+    border:4px solid rgb(5, 46, 88);
+    border-bottom: 1px solid rgb(20, 108, 197); 
+    border-top: 1px solid rgb(20, 108, 197); 
+}
+
+.divhelp{
+    background-color: aliceblue;
+    color: rgb(6, 92, 127);
+    font-size: xx-large;
+    border-radius: 20px;
+    height: 200px;
+    width:200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border:2px solid rgb(7, 76, 132);
+    padding: 10px;
+}
+.overflow{
+    max-height:500px;
+    overflow-y: scroll;
+    background-color: antiquewhite;
+}
+
+.button1{ grid-column: 4/span 1;
+    font-size: medium;
+    width: 70px;
+    background-color: rgb(255, 255, 255);
+    color:rgb(14, 54, 120);
+    border:1px,solid black;
+    border-radius: 5px;
+    grid-row: 1;
+   justify-items: end;
+
+}
+.button{  text-align:center;
+    grid-column: 3/span 1;
+    font-size: medium;
+    width: 100px;
+    background-color: rgb(255, 255, 255);
+    color:rgb(14, 54, 120);
+    border:1px,solid black;
+    border-radius: 5px;
+    grid-row: 1;
+}
+.button:hover,.button1:hover{
+    background-color: rgb(6, 50, 84);
+    color: azure;
+}
+
+
+.item1{  text-align:start;
+    grid-column:1/span 1 ;
+    grid-row: 1;
+    max-width: 200px;
+    overflow-x:hidden;
+    justify-self: start;
+    min-width: 180px;
+    overflow-x:scroll;
+
+}
+.item2{  text-align:center;
+    grid-column: 2/span 1;
+    grid-row: 1;
+    width: 50px;
+    
+   font-size: small;
+   text-align: center;
+   justify-self: end;
+}
+.sroting{
+    font-size: xx-large;
+    background-color: rgb(6, 84, 126);
+    transform: rotate(90deg);
+    padding: -2px;
+    margin-left: 7px;
+    margin-bottom: -5px;
+}
+.normal{
+    font-size: xx-large;
+    background-color: rgb(6, 84, 126);
+    padding: -2px;
+    margin-left: 7px;
+    margin-bottom: -5px;
+    
+}
+.sortlist{
+    color:rgb(10, 10, 10);
+    font-size: x-large;
+}
+.p{display: flex;
+flex-direction: column;
+margin: 0;
+
+}
+.ul{
+margin: 0;
+}
+.p{
+    background-color: azure;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+.lista{
+    display: flex;
+    flex-direction: column;
+    background-color: azure;
+    border:0px;
+}
+.inputdate{
+    display: flex;
+    justify-content: center;
+    border: 2px solid blue;
+    font-size: x-large;
+    width: 100%;
+    padding:10px;
+    padding-left:50px ;
+    padding-right: 50px;
+    font-family: 'Times New Roman', Times, serif;
+     background-color: rgb(149, 185, 218);
+}
+.addbutton{
+    width: 250px;
+
+}

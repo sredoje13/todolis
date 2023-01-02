@@ -1,0 +1,73 @@
+.alltask{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: azure;
+    border: 2px solid blue;
+    border-radius:20px ;
+    font-size: x-large;
+    max-height: 550px;
+    padding: 10px;
+
+}
+.button{
+    background-color: rgb(10, 78, 131);
+    border-radius: 10px;
+    border:2px solid black;
+    color:beige;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.button:hover{color:rgb(10, 78, 131);
+background-color: beige;}
+.p{
+    font-family: 'Rubik Gemstones', cursive;
+    font-size: xxx-large;
+    color: aliceblue;
+}
+.p:hover{
+    color: rgb(5, 29, 50);
+}
+.date{
+   display: flex;
+   align-items: center;
+   justify-content: flex-start;
+}
+.divic{
+   width: 30%;
+}
+.divic:hover{
+    padding:100px
+   
+}
+.searchp{
+    font-size: x-large;
+    font-family: 'Rubik Gemstones', cursive;
+    color: rgb(5, 49, 61);
+
+    
+}
+
+.search{
+    background-color: rgb(83, 193, 230);
+    border-radius: 10px;
+    margin-bottom: 7px;
+}
+@media only screen and (max-width: 778px){
+*{
+    font-size: medium;
+}
+}
+@media only screen and (max-width:360px){
+    *{
+        font-size: small;
+    }
+    .button{
+        font-size: medium;
+    }
+    .p{
+        font-size: x-small;
+    }
+}
